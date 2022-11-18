@@ -16,8 +16,9 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-      - name: 'Executing my script'
-      - run: echo "Running the new command created in c ++"
-      - run: g++ -o out.o hola.cpp
-      - run: ./out.o
-      - run: echo "🍏 Action finished ${{ job.status }}."
+      - name: 'Executing my script ...'
+        run: |
+          echo "Running the new command created in c ++"
+          g++ -o out.o hola.cpp
+          ./out.o
+          echo "🍏 Action finished ${{ job.status }}."
