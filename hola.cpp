@@ -4,5 +4,6 @@ using namespace std;
 
 void main()
 {
-    cout << "hola mundo";
+    cout << "hola mundo cruel, como te encuentras" <<endl;
+    cout << "este es un mensaje de doble línea" <<endl;
 }
